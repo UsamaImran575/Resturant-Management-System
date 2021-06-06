@@ -1,5 +1,5 @@
 # Resturant-Management-System
-Using C#,SP.net Framework for backend
+Using C#,ASP.net Framework for backend
 HTML/CSS for frontend
 
 Section:1
