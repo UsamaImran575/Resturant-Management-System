@@ -1,0 +1,46 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title> .::Login::.  </title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/myStyle.css">
+    <script src="~/Scripts/login.js">
+    </script>
+</head>
+
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- inline CSS on div tag;  external CSS on text boxes;-->
+    <div style="margin-left: 60%; padding-top: 1%; padding-left: 4%; margin-top: 10%; width: 23%; background: #ff6a00; border-radius: 25px; border: 2px solid #ff0000; ">
+        <form name="myform" onsubmit="return Checks();" action="#" method="get">
+        <h1> Get Started </h1>
+
+        <br />
+        <br />
+
+        <i class="fa fa-envelope icon"></i>
+        <label >  Email  </label> <br /> <input type="text" name="email" id="rcorners1" placeholder="Enter Email Address" required>
+        <br />
+        <br />
+
+        <i class="fa fa-key icon"></i>
+        <label> Password </label>  <br /> <input type="password" name="psw" id="rcorners2"  placeholder="Enter Password" required>  
+
+        <br />
+        <br />
+        <br />
+        <input type="submit" id="newbutton" value="Log in">
+        <br />
+        <br />
+        <p> Don't have an account? <a href="../../signup"> Sign Up!</a></p>
+        <br />
+        <br />
+        <br />
+      </form>
+ 
+    </div>
+
+</body>
+</html>

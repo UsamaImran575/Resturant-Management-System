@@ -1,0 +1,49 @@
+﻿#rcorners1 {
+  border-radius: 25px;
+  border: 2px solid #ff0000;
+  padding: 20px; 
+  width: 200px;
+  height: 5px;  
+}
+#rcorners2 {
+ border-radius: 25px;
+  border: 2px solid #ff0000;
+  padding: 20px; 
+  width: 200px;
+  height: 5px;   
+}
+
+
+body {
+ background-image: url("123.jpg");
+ background-color: #cccccc;
+}
+
+#icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+#newbutton {
+
+  margin-left:0px;
+  border-radius: 25px;
+  border: 2px solid #ff0000;
+  padding: 20px; 
+  width: 200px;
+  height: 3px;  
+  background-color:#ff0000;
+  text-align: center;  
+  line-height: 5px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  padding-right: 20%;
+}
